@@ -17,9 +17,6 @@ public class RewindObject : MonoBehaviour
       Snapshot currentSnapshot = snapshots[0];
       Snapshot nextSnapshot = snapshots[1];
 
-      Debug.Log(currentSnapshot.ToString());
-      Debug.Log(nextSnapshot.ToString());
-
       float timeDifference = currentSnapshot.time - nextSnapshot.time;
       float lerpFactor = (Time.time - nextSnapshot.time) / timeDifference;
 
