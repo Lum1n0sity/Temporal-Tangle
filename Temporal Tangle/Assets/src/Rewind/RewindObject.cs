@@ -6,6 +6,7 @@ public class RewindObject : MonoBehaviour
   private List<Snapshot> snapshots = new List<Snapshot>();
 
   void Update() {
+    // record a snapshot of player attributes every frame
     if (!RewindManager.isRewinding) {
       RecordSnapshot();
     }

@@ -8,6 +8,7 @@ public class RewindManager : MonoBehaviour
   private static List<string> finishedRewindableObjects = new List<string>();
 
   void Start() {
+    // collect all gameObjects with RewindObject script
     rewindableObjects.AddRange(Object.FindObjectsByType<RewindObject>(FindObjectsSortMode.None));
   }
 
@@ -24,6 +25,7 @@ public class RewindManager : MonoBehaviour
         }
       }
 
+      // key input for rewind start and end
       if (Input.GetKeyDown(KeyCode.R)) {
         ToggleRewind(true);
       } else if (Input.GetKeyUp(KeyCode.R)) {
