@@ -14,6 +14,7 @@ public class slowdown : MonoBehaviour
     {
       originalTimeScale = Time.timeScale;
       originalFixedDeltaTime = Time.fixedDeltaTime;
+      Application.targetFrameRate = 60;
     }
 
     void Update() {
