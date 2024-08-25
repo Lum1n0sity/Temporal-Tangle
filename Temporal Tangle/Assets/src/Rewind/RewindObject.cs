@@ -4,6 +4,11 @@ using UnityEngine;
 public class RewindObject : MonoBehaviour
 {
   private List<Snapshot> snapshots = new List<Snapshot>();
+  int frame = 0;
+
+  void Start(){
+    Application.targetFrameRate = 60;
+  }
 
   void Update() {
     // record a snapshot of player attributes every frame
@@ -16,9 +21,6 @@ public class RewindObject : MonoBehaviour
     if (snapshots.Count > 1) {
       Snapshot currentSnapshot = snapshots[0];
       Snapshot nextSnapshot = snapshots[1];
-
-      Debug.Log(currentSnapshot.ToString());
-      Debug.Log(nextSnapshot.ToString());
 
       float timeDifference = currentSnapshot.time - nextSnapshot.time;
       float lerpFactor = (Time.time - nextSnapshot.time) / timeDifference;
