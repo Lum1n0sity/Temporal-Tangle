@@ -4,6 +4,11 @@ using UnityEngine;
 public class RewindObject : MonoBehaviour
 {
   private List<Snapshot> snapshots = new List<Snapshot>();
+  int frame = 0;
+
+  void Start(){
+    Application.targetFrameRate = 60;
+  }
 
   void Update() {
     // record a snapshot of player attributes every frame
