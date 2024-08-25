@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1c3789701b85f38468b339267e984e40
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 235935
+  packageName: 2D Pixel Art Fantasy World Tile Set
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Fantasy Pixel Art Tile Set/Animation Controllers/BurningTorchController.controller
+  uploadId: 631796

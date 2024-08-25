@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7332eeb29034f5840829788c8baa3678
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 235935
+  packageName: 2D Pixel Art Fantasy World Tile Set
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Fantasy Pixel Art Tile Set/Animation Controllers/WizardRunningController.controller
+  uploadId: 631796

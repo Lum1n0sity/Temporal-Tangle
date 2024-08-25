@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d38e2994d16150e47a278b7cb58593a2
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 235935
+  packageName: 2D Pixel Art Fantasy World Tile Set
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Fantasy Pixel Art Tile Set/Animation Controllers/SheepEatingController.controller
+  uploadId: 631796

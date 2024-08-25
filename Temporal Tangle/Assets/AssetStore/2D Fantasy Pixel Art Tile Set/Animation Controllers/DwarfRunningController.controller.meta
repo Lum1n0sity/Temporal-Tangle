@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 0b2f4bc4aaf1d294a88c6085d751ed56
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 235935
+  packageName: 2D Pixel Art Fantasy World Tile Set
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Fantasy Pixel Art Tile Set/Animation Controllers/DwarfRunningController.controller
+  uploadId: 631796

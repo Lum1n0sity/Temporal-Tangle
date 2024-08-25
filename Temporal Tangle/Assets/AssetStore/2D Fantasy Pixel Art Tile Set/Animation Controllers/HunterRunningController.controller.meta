@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 93bf9a196227c2749814ca71fa42d43e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 235935
+  packageName: 2D Pixel Art Fantasy World Tile Set
+  packageVersion: 1.0.1
+  assetPath: Assets/2D Fantasy Pixel Art Tile Set/Animation Controllers/HunterRunningController.controller
+  uploadId: 631796
